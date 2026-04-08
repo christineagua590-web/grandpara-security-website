@@ -92,3 +92,28 @@ font-weight: bold;
         text-align: center;
     }
 }
+
+
+@media only screen and (max-width:600px) {
+    body{
+        font-size: 18px;
+    }
+
+    h1, h2, h3 {
+        font-size: 22px;
+    }
+
+    .servicess-box {
+        width: 100%;
+        margin-bottom:20px;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+    }                                                                                                                                                               
+
+    container{
+        padding: 10px;
+    }
+}
