@@ -141,13 +141,13 @@ font-weight: bold;
 
 }
 .about-banner::before{
-    background-image: url("images/about-us.png");
+    background-image: url("about-bg.jpg.png");
 }
 
 .services-banner::before{
-    background-image: url("images/our-services.png");
+    background-image: url("our-services-bg.jpg.png");
 }
 
 .contact-banner::before{
-    background-image: url("images/contact.png");
+    background-image: url("contact-bg.jpg.png");
 }
