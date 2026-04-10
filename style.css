@@ -118,13 +118,16 @@ font-weight: bold;
     }
 }
 .page-banner{
-    height: 300px;
-    display: flex;
+    min-height: 40vh;
+    display:flex;
     justify-content: center;
     align-items: center;
     color: white;
-    text-align: center;
-    position: relative;
+    text-align:center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
 }
 
 .page-banner::before{
@@ -150,4 +153,21 @@ font-weight: bold;
 
 .contact-banner::before{
     background-image: url("contact-bg.jpg.png");
+}
+
+.page-banner h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: gold;
+    text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
+}
+
+@media (max-width:768px){
+    .page-banner h1{
+        font-size: 28px;
+    }
 }
